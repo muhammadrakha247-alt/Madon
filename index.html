@@ -1,0 +1,123 @@
+<!doctype html>
+
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PUSAT DATA FACEBOOK - IoT Showcase</title>
+  <style>
+    :root{
+      --bg1: #ff8c00; /* orange */
+      --bg2: #ffd54d; /* yellow */
+      --card-bg: rgba(255,255,255,0.95);
+      --accent: #dd6b00;
+      --radius: 16px;
+      --maxw: 1000px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: linear-gradient(135deg,var(--bg1), var(--bg2));
+      color:#222;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      padding:40px 20px;
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:var(--maxw);
+      background: linear-gradient(180deg, rgba(255,255,255,0.85), rgba(255,255,255,0.92));
+      border-radius:20px;
+      padding:28px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    }
+    header{display:flex;align-items:center;gap:18px}
+    .logo{
+      width:68px;height:68px;border-radius:12px;background:linear-gradient(45deg,#fff2e6,#fffde6);display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent)
+    }
+    h1{margin:0;font-size:20px}
+    p.lead{margin:6px 0 18px;color:#6b4a00}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.card{
+  background:var(--card-bg);
+  padding:14px;border-radius:12px;border:1px solid rgba(0,0,0,0.04);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+.card h3{margin:0 0 8px;font-size:16px}
+.links{display:flex;gap:8px;flex-wrap:wrap}
+a.button{display:inline-block;padding:8px 10px;border-radius:8px;text-decoration:none;border:1px solid rgba(0,0,0,0.06);background:#fff;font-weight:600}
+a.small{font-size:13px;padding:6px 8px}
+iframe{width:100%;height:200px;border-radius:10px;border:0}
+footer{margin-top:18px;color:#4a2f00;font-size:14px}
+ul.members{margin:6px 0 0;padding-left:18px}
+@media (max-width:520px){body{padding:18px} iframe{height:170px}}
+
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">FD</div>
+      <div>
+        <h1>PUSAT DATA FACEBOOK</h1>
+        <p class="lead">Kumpulan sumber singkat dan demo: IoT Rumah, Pertanian, Medis — tampilan cepat.</p>
+      </div>
+    </header><section style="margin-top:18px">
+  <div class="grid">
+    <!-- Facebook / TikTok links -->
+    <div class="card">
+      <h3>Referensi: Facebook / TikTok</h3>
+      <p>Video singkat (TikTok) terkait pusat data / demo. Link langsung:</p>
+      <div class="links">
+        <a class="button small" href="https://vt.tiktok.com/ZSfdFgcU4/" target="_blank" rel="noopener">Buka TikTok 1</a>
+        
+      </div>
+      <p style="margin-top:10px;font-size:13px;color:#5a3b00">Catatan: TikTok terkadang menolak embed di halaman statis. Jika perlu, saya bisa bantu ambil thumbnail untuk tampilan.</p>
+    </div>
+
+    <!-- IoT Rumah -->
+    <div class="card">
+      <h3>IoT: Bidang Otomatis Rumah</h3>
+      <p>Demo singkat (TikTok) dan sumber lain untuk otomatisasi rumah.</p>
+      <div class="links">
+        <a class="button" href="https://vt.tiktok.com/ZSfdYp4oS/" target="_blank" rel="noopener">Tonton di TikTok</a>
+      </div>
+    </div>
+
+    <!-- IoT Pertanian -->
+    <div class="card">
+      <h3>IoT: Bidang Pertanian</h3>
+      <p>Video YouTube (pendek ~simple):</p>
+      <!-- Embedded YouTube -->
+      <iframe src="https://www.youtube.com/embed/9-PvSDQ5KXU" title="IoT Pertanian" allowfullscreen></iframe>
+      <div style="margin-top:8px" class="links">
+        <a class="button small" href="https://youtu.be/9-PvSDQ5KXU?si=l5jgDgOXIuOmh1HW" target="_blank" rel="noopener">Buka YouTube</a>
+      </div>
+    </div>
+
+    <!-- IoT Medis -->
+    <div class="card">
+      <h3>IoT: Bidang Medis</h3>
+      <p>Contoh implementasi IoT di medis — video YouTube:</p>
+      <iframe src="https://www.youtube.com/embed/pY_9TxAg95M" title="IoT Medis" allowfullscreen></iframe>
+      <div style="margin-top:8px" class="links">
+        <a class="button small" href="https://youtu.be/pY_9TxAg95M?si=-UQBkjKJtMepL5rZ" target="_blank" rel="noopener">Buka YouTube</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <strong>Nama Kelompok:</strong>
+  <ul class="members">
+    <li>1. revan saputra romadon</li>
+    <li>2. kiagus m. Farhan</li>
+  </ul>
+</footer>
+
+  </div>
+</body>
+</html>
